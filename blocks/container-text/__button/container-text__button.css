@@ -1,0 +1,41 @@
+.container-text__button {
+    width: 222px;
+    height: 55px;
+    background: #40404d;
+    border-radius: 15px;
+    border: #000000;
+    color: #FFFFFF;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 35px 0 0 0
+}
+
+.container-text__button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media (max-width: 1247px) {
+    .container-text__button {
+        width: 222px;
+        height: 55px;
+        background: #40404d;
+        border-radius: 15px;
+        border: #000000;
+        color: #FFFFFF;
+        font-family: 'TT Norms';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 450px auto 150px;
+        display: block;
+    }
+}

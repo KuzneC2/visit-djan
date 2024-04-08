@@ -1,0 +1,9 @@
+.header {
+    background-color: #494860;
+    margin: 0 0 75px 0;
+}
+@media (max-width: 1247px) {
+    .header{
+        margin: 0 0 65px 0;
+    }
+}

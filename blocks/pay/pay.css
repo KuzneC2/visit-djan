@@ -1,0 +1,16 @@
+.pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 102px);
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    min-height: 120px;
+}
+
+@media (max-width: 1247px) {
+    .pay{
+        width: 100%;
+    }
+}

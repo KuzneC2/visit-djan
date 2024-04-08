@@ -1,0 +1,68 @@
+.problem-grid__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    border: 1px solid #96317D;
+    border-radius: 15px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #96317D;
+}
+
+.problem-grid__container:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+    width: 95%;
+}
+
+.four {
+    grid-area: four;
+    width: 88%;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+    width: 88%;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.ten {
+    grid-area: ten;
+}
+
+.eleven {
+    grid-area: eleven;
+    width: 95%;
+}

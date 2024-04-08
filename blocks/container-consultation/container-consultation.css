@@ -1,0 +1,10 @@
+.container-consultation {
+    margin: 0 0 0 200px;
+}
+
+@media (max-width: 1247px) {
+    .container-consultation {
+        margin: 0 auto;
+        text-align: center;
+    }
+}

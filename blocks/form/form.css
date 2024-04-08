@@ -1,0 +1,22 @@
+.form {
+    margin: auto;
+    display: flex;
+    height: 181px;
+    width: 96%;
+    max-width: 1341px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+@media (max-width:1247px) {
+    .form {
+        width: 93%;
+        height: 408px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

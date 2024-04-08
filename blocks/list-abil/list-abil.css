@@ -1,0 +1,15 @@
+.list-abil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+}
+
+@media (max-width: 1247px) {
+    .list-abil{
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin:  0 auto;
+        justify-content: normal;
+    }
+}

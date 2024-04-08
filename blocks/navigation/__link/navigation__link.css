@@ -1,0 +1,10 @@
+.navigation__link {
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    opacity: 60%;
+    cursor: pointer;
+}

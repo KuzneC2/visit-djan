@@ -1,0 +1,18 @@
+.questions__subtitle {
+    margin: 0;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+@media (max-width: 1247px) {
+    .questions__subtitle {
+        text-align: center;
+        width: 527px;
+        margin: 0 auto 50px;
+    }
+}

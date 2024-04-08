@@ -1,0 +1,11 @@
+.container-text {
+    width: 600px;
+    margin: 0 7% 0 auto;
+}
+
+@media (max-width: 1247px) {
+    .container-text{
+        margin: 0 auto 0;
+        width: 100%;
+    }
+}

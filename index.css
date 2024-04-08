@@ -1,0 +1,246 @@
+@import url(./fonts/fonts.css);
+
+@import url(./blocks/body/body.css);
+/* ---------------------------ШАПКА------------------------------ */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__navbar/header__navbar.css);
+@import url(./blocks/header/__body/header__body.css);
+
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/__subtitle/logo__subtitle.css);
+
+@import url(./blocks/navigation/navigation.css);
+@import url(./blocks/navigation/__link/navigation__link.css);
+
+@import url(./blocks/contact-adress/contact-adress.css);
+
+@import url(./blocks/adress/adress.css);
+@import url(./blocks/adress/__title/adress__title.css);
+@import url(./blocks/adress/__icon-nav/adress__icon-nav.css);
+
+@import url(./blocks/button-call/button-call.css);
+
+@import url(./blocks/container-text/container-text.css);
+@import url(./blocks/container-text/__title/container-text__title.css);
+@import url(./blocks/container-text/__subtitle/container-text__subtitle.css);
+@import url(./blocks/container-text/__subtitle/_color/_orange/container-text__subtitle_color_orange.css);
+@import url(./blocks/container-text/__button/container-text__button.css);
+
+@import url(./blocks/container-promo/container-promo.css);
+@import url(./blocks/container-promo/__subtitle/container-prommo__subtitle.css);
+@import url(./blocks/container-promo/__link/container-prromo__link.css);
+/* ---------------------------ШАПКА------------------------------ */
+
+
+/* ---------------------ABILITI--LIST------------------------ */
+@import url(./blocks/list-abil/list-abil.css);
+@import url(./blocks/list-abil/__container/list-abil__container.css);
+@import url(./blocks/list-abil/__title/list-abil__title.css);
+/* ---------------------ABILITI--LIST------------------------ */
+
+
+/* ----------------------PROBLEMS-GRID-------------------------- */
+@import url(./blocks/troubles/troubles.css);
+@import url(./blocks/container-consultation/container-consultation.css);
+@import url(./blocks/container-consultation/__subtitle/container-consultation__subtitle.css);
+@import url(./blocks/container-consultation/__title/container-consultation__title.css);
+
+@import url(./blocks/problem-grid/problem-grid.css);
+@import url(./blocks/problem-grid/__container/problem-grid__container.css);
+
+@import url(./blocks/container-caption/container-caption.css);
+@import url(./blocks/container-caption/__subtitle/container-caption__subtitle.css);
+@import url(./blocks/container-caption/__icon/container-caption__icon.css);
+/* ----------------------PROBLEMS-GRID-------------------------- */
+
+/* ------------------ПРАЙС-ЛИСТ------------------------------- */
+@import url(./blocks/price/price.css);
+@import url(./blocks/price/__title/price__title.css);
+@import url(./blocks/price/__subtitle/price__subtitle.css);
+
+@import url(./blocks/prices/prices.css);
+
+@import url(./blocks/prices-container/prices-container.css);
+@import url(./blocks/prices-container/__price/prices-container__price.css);
+@import url(./blocks/prices-container/__title/prices-container__title.css);
+@import url(./blocks/prices-container/__subtitle/prices-container__subtitle.css);
+@import url(./blocks/prices-container/__subtitle/_color/_purple/prices-container__subtitle_color_purple.css);
+@import url(./blocks/prices-container/__subtitle/_weight/_400/prices-container__subtitle_weight_400.css);
+/* ------------------ПРАЙС-ЛИСТ------------------------------- */
+
+/* --------------------ФОРМА С НОМЕРОМ-------------------------- */
+@import url(./blocks/section-form/section-form.css);
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__container-collumn/form__container-collumn.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(./blocks/form/__subtitle/form__subtitle.css);
+@import url(./blocks/form/__subtitle/_color/_purple/form__subtitle_color_purple.css);
+@import url(./blocks/form/__container-row/form__container-row.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__button/form__button.css);
+/* --------------------ФОРМА С НОМЕРОМ-------------------------- */
+
+/* -------------------------Вопросы------------------------------ */
+@import url(./blocks/section-questions/section-questions.css);
+
+@import url(./blocks/questions/questions.css);
+@import url(./blocks/questions/__box-title/questions__box-title.css);
+@import url(/blocks/questions/__title/questions__title.css);
+@import url(./blocks/questions/__subtitle/questions__subtitle.css);
+@import url(./blocks/questions/__box-quest-ansver/questions__box-quest-ansver.css);
+@import url(./blocks/questions/__quest-box/questions__quest-box.css);
+@import url(./blocks/questions/__quest/questions__quest.css);
+@import url(./blocks/questions/__quest-title/questions__quest-title.css);
+@import url(./blocks/questions/__button/questions__button.css);
+@import url(./blocks/questions/__ansver/questions__ansver.css);
+@import url(./blocks/questions/__ansver-title/questions__ansver-title.css);
+
+@import url(./blocks/open/open.css);
+/* -------------------------Вопросы------------------------------ */
+
+/* ----------------------Оплата----------------------- */
+@import url(./blocks/payment/payment.css);
+
+@import url(./blocks/pay/pay.css);
+@import url(./blocks/pay/__container/pay__container.css);
+@import url(./blocks/pay/__box/pay__box.css);
+@import url(./blocks/pay/__choice/pay__choice.css);
+@import url(./blocks/pay/__title/pay__title.css);
+
+/* ----------------------Оплата----------------------- */
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1247px) {
+    .container-logo-call_width_medium {
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 1900px) {
+    .container-adress-navigation {
+        width: calc(100% - 50%);
+        margin: auto 0;
+    }
+}
+
+@media (max-width: 1247px) {
+    .container-adress-navigation {
+
+        display: flex;
+        width: auto;
+        padding: 20px 30px;
+        border-bottom: 1px solid grey;
+    }
+
+}
+
+.adress_width_medium {
+    display: none;
+}
+
+@media (max-width: 1247px) {
+    .adress_width_medium {
+        display: flex;
+    }
+
+}
+
+
+
+
+.button-call_width_medium {
+    display: none;
+}
+
+@media (max-width:1247px) {
+    .container-logo-call {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    .button-call_width_medium {
+        display: block;
+    }
+
+    .contact-address {
+        display: none;
+    }
+
+
+}
+
+
+.ability {
+    width: 100%;
+    margin: 0 0 75px 0;
+}
+
+@media (max-width: 1247px) {
+    .ability {
+        margin: 0 0 65px 0;
+    }
+}
+
+
+
+@media (max-width: 1247px) {
+    .list-abil__img {
+        width: auto;
+        height: 60px;
+        margin: 0 5% 0 0
+    }
+}
+
+
+
+.select-wrapper {
+    display: none;
+}
+
+@media (max-width: 1247px) {
+    .select-wrapper {
+        display: block;
+        position: relative;
+        width: 90%;
+        max-width: 720px;
+        min-height: 63px;
+        margin: 380px auto 0;
+    }
+
+}
+
+.select-menu {
+    min-height: 63px;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #96317D;
+    max-width: 720px;
+    width: 100%;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #96317D;
+    appearance: none;
+}
+
+
+.triangle {
+    color: #96317D;
+    position: absolute;
+    top: 42%;
+    right: 5%;
+    transition: transform 0.5s ease;
+}

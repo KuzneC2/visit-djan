@@ -1,0 +1,25 @@
+.troubles {
+    background-color: #FAFAFA;
+    background-image: url(../../images/стиралка2.svg),
+        url(../../images/фон.png);
+    background-size: 530px 760px, 406px 812px;
+    background-repeat: no-repeat;
+    background-position: right 31%, right top;
+    min-height: 818px;
+    padding-top: 115px;
+    margin-top: 75px;
+
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+@media (max-width: 1247px) {
+    .troubles {
+        background-image: url(../../images/back.png);
+        background-size: 1020px 799px;
+        background-position: 50% 0;
+        min-height: 593px;
+        padding-top: 80px;
+        
+    }
+}

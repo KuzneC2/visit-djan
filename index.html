@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Массажная Визитка</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="header__navbar">
+            <div class="container-logo-call container-logo-call_width_medium">
+                <a class="logo" href="#">
+                    <img class="logo__icon" src="./images/sign.svg" alt="Логотип">
+                    <p class="logo__subtitle">Fixer</p>
+                </a>
+                <a href="tel:+79687947318">
+                    <button class="button-call button-call_width_medium">Позвонить</button>
+
+                </a>
+            </div>
+            <div class="container-adress-navigation">
+                <div class="adress adress_width_medium">
+                    <img class="adress__icon-nav" src="./images/geo.svg" alt="знак геолокации">
+                    <h2 class="adress__title">Москва</h2>
+                </div>
+
+                <ul class="navigation">
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__point">Диагностика</li>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__point">Стоимость</li>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__point">Мастер</li>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__point">Вопросы</li>
+                    </a>
+                </ul>
+
+            </div>
+
+            <div class="contact-address">
+                <div class="adress">
+                    <img class="adress__icon-nav" src="./images/geo.svg" alt="знак геолокации">
+                    <h2 class="adress__title">Москва</h2>
+                </div>
+                <a href="tel:+79687947318">
+                    <button class="button-call">Позвонить</button>
+                </a>
+            </div>
+
+        </nav>
+        <section class="header__body">
+            <div class="container-text">
+                <h2 class="container-text__title">Ремонт стиральных машин на дому c годовой гарантией</h2>
+                <p class="container-text__subtitle"><span
+                        class="container-text__subtitle container-text__subtitle_color_orange">Отремонтируем на
+                        дому</span>
+                    или бесплатно завезем и доставим обратно из
+                    сервисного центра</p>
+                <button class="container-text__button">Заказать звонок</button>
+            </div>
+
+            <div class="container-promo">
+                <p class="container-promo__subtitle"><span class="container-text__subtitle_color_orange">Мы открыты и
+                        принимаем заказы до 21:00</span>, позвоните сейчас и мы
+                    сделаем скидку 15%</p>
+                <a class="container-promo__link" href="">Получить скидку...</a>
+            </div>
+
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="ability">
+
+            <div class="list-abil">
+                <div class="list-abil__container">
+                    <img class="list-abil__img" src="./images/Group 819.svg" alt="качество">
+                    <h3 class="list-abil__title">Фирменные запчасти у мастеров в наличии</h3>
+                </div>
+    
+                <div class="list-abil__container">
+                    <img class="list-abil__img" src="./images/Group 818.svg" alt="быстрота">
+                    <h3 class="list-abil__title">Большинство ремонтов делаем за час на дому</h3>
+                </div>
+    
+                <div class="list-abil__container">
+                    <img class="list-abil__img" src="./images/Group 811.svg" alt="многофункциональность">
+                    <h3 class="list-abil__title">Профессиональный инструмент под любую задачу</h3>
+                </div>
+    
+                <div class="list-abil__container">
+                    <img class="list-abil__img" src="./images/Group 779.svg" alt="опыт">
+                    <h3 class="list-abil__title">Квалифицированные и опытные мастера</h3>
+                </div>
+            </div>
+        </section>
+
+<section class="troubles">
+    <div class="container-consultation">
+        <p class="container-consultation__subtitle">Онлайн диагностика</p>
+        <h2 class="container-consultation__title">Что вас беспокоит ?</h2>
+        <div class="problem-grid">
+            <div class="problem-grid__container one">Болит спина</div>
+            <div class="problem-grid__container two">Болит шея</div>
+            <div class="problem-grid__container three">Болят Стопы</div>
+            <div class="problem-grid__container four">Ничего не болит, но я хочу лучший массаж</div>
+            <div class="problem-grid__container five">Мышечные спазмы</div>
+            <div class="problem-grid__container six">Посттравматичесий массаж</div>
+            <div class="problem-grid__container seven">Массаж лица</div>
+            <div class="problem-grid__container eight">Ноют плечи</div>
+            <div class="problem-grid__container nine">Всё тело ломит</div>
+            <div class="problem-grid__container ten">Массаж с окончанием</div>
+            <div class="problem-grid__container eleven">Болят мышцы после тренировки</div>
+        </div>
+
+        <div class="select-wrapper" onclick="rotateTriangle()">
+            <select class="select-menu" size="1">
+                <option class="options" value="option1">Болит спина</option>
+                <option class="options" value="option2">Болит шея</option>
+                <option class="options" value="option3">Болят Стопы</option>
+                <option class="options" value="option4">Ничего не болит, но я хочу лучший массаж</option>
+                <option class="options" value="option5">Мышечные спазмы</option>
+                <option class="options" value="option6">Посттравматичесий массаж</option>
+                <option class="options" value="option7">Массаж лица</option>
+                <option class="options" value="option8">Ноют плечи</option>
+                <option class="options" value="option9">Всё тело ломит</option>
+                <option class="options" value="option10">Массаж с окончанием</option>
+                <option class="options" value="option11">Болят мышцы после тренировки</option>
+            </select>
+            <div class="triangle">&#9660</div>
+        </div>
+        <div class="container-caption">
+            <img class="container-caption__icon" src="./images/Group 817.svg" alt="внимание">
+            <p class="container-caption__subtitle">Выберите проблему и узнайте её решение</p>
+        </div>
+    </div>
+</section>
+
+<section class="price">
+            <h2 class="price__title">Стоимость работ</h2>
+            <div class="prices">
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Услуга</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle prices-container__subtitle_weight_400">Стоимость запчасти
+                        </p>
+                        <p class="prices-container__subtitle prices-container__subtitle_weight_400">Стоимость работ</p>
+                    </div>
+                </div>
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Выезд мастера</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle"></p>
+                        <p class="prices-container__subtitle prices-container__subtitle_color_purple">Бесплатно</p>
+                    </div>
+                </div>
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Диагностика стиральной машины</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle"></p>
+                        <p class="prices-container__subtitle prices-container__subtitle_color_purple">Бесплатно</p>
+                    </div>
+                </div>
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Замена блока питания</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle">от 750₽</p>
+                        <p class="prices-container__subtitle">900₽</p>
+                    </div>
+                </div>
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Замена помпы</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle">от 8800₽</p>
+                        <p class="prices-container__subtitle">1900₽</p>
+                    </div>
+                </div>
+
+                <div class="prices-container">
+
+                    <p class="prices-container__title">Замена подшипников</p>
+
+                    <div class="prices-container__price">
+                        <p class="prices-container__subtitle">от 1450₽</p>
+                        <p class="prices-container__subtitle">750₽</p>
+                    </div>
+                </div>
+            </div>
+            <p class="price__subtitle">Показать все цены...</p>
+
+        </section>
+
+<section class="section-form">
+            <div class="form">
+                <div class="form__container-collumn">
+                    <h2 class="form__title">Вызов мастера</h2>
+                    <p class="form__subtitle">Оставьте заявку сейчас и получите <span
+                            class=" form__subtitle_color_purple">скидку 15%</span></p>
+                </div>
+
+                <form class="form__container-row" action="">
+                    <input class="form__input" type="phone" name="" id="" placeholder="Номер телефона">
+                    <button class="form__button" tupe="sumbit">Заказать звонок</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section-questions">
+
+            <div class="questions">
+                <div class="questions__box-title">
+                    <h2 class="questions__title">Часто задаваемые вопросы</h2>
+                    <p class="questions__subtitle">Не нашли ответ на свой вопрос? Оставьте заявку и наш специалист
+                        свяжется и ответит на ваш вопрос</p>
+                </div>
+                <div class="questions__box-quest-ansver">
+
+
+
+                    <div class="questions__quest-box">
+                        <div class="questions__quest">
+                            <h3 class="questions__quest-title">У грудничка есть нарушения ЦНС или мышечного тонуса?
+                            </h3>
+                            <div class="questions__button">+</div>
+                        </div>
+                        <div class="questions__ansver">
+                            <p class="questions__ansver-title"> Специалист детского лечебного массажа на дому делает
+                                малышу гимнастику и ЛФК. Работает по медицинским показаниям или назначению педиатра.
+                                Звоните.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__quest-box">
+                        <div class="questions__quest">
+                            <h3 class="questions__quest-title">Как провоодят массаж с окончанием ?</h3>
+                            <div class="questions__button">+</div>
+                        </div>
+                        <div class="questions__ansver">
+                            <p class="questions__ansver-title">Наш мастер берёт кусок САЛА и натирает им свой 32-ух
+                                сантиметровый прибор, после чего руками сначала разминает вам ональное отверстие, а
+                                затем поступающими движениями проводит сеанс окончания. В конце сеанса у вас будет выбор
+                                куда впрыснуть и традиционный сувенир нашей студии фото или видео на память! Ждём вас
+                                снова и приводите родственников и знакомых!!!</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__quest-box">
+                        <div class="questions__quest">
+                            <h3 class="questions__quest-title">Лечебный массаж - что это ?</h3>
+                            <div class="questions__button">+</div>
+                        </div>
+                        <div class="questions__ansver">
+                            <p class="questions__ansver-title">Наш лечебный массаж на дому отлично помогает при
+                                заболеваниях опорно-двигательного аппарата: остеохондрозе, артрите, радикулите, параличе
+                                конечностей и восстановлении после травм. А также при заболеваниях кишечника,
+                                дыхательных путей и проблемах с кровообращением.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__quest-box">
+                        <div class="questions__quest">
+                            <h3 class="questions__quest-title">На чём вы специализируетесь?</h3>
+                            <div class="questions__button">+</div>
+                        </div>
+                        <div class="questions__ansver">
+                            <p class="questions__ansver-title">Мы специализируемся на антицеллюлитном массаже. Кожа
+                                приобретает тонус, упругость и омолаживается, а жировая прослойка становится тоньше</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="payment">
+
+
+
+
+            <div class="pay">
+                <div class="pay__container">
+                    <h3 class="pay__title">Способы оплаты:</h3>
+                    <div class="pay__box">
+                        <div class="pay__choice"><img class="pay__image" src="./images/Мир-логотип.svg" alt="оплата">
+                        </div>
+                        <div class="pay__choice"><img class="pay__image" src="./images/2000px-Mastercard-logo.svg"
+                                alt="оплата"></div>
+                        <div class="pay__choice"><img class="pay__image" src="./images/Visa_Inc._logo.svg" alt="оплата">
+                        </div>
+                        <div class="pay__choice"><img class="pay__image"
+                                src="./images/58837-google-apple-mobile-pay-wallet-digital-logo.svg" alt="оплата"></div>
+                        <div class="pay__choice"><img class="pay__image"
+                                src="./images/2000px-Google_Pay_(GPay)_Logo.svg" alt="оплата">
+                        </div>
+                        <div class="pay__choice">Наличные</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+</main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

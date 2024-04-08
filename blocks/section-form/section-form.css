@@ -1,0 +1,14 @@
+.section-form {
+    display: flex;
+    min-height: 381px;
+    background-image: url(../../images/фон2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+@media (max-width: 1247px) {
+    .section-form {
+        min-height: 508px;
+        background-size: 1927px 508px;
+    }
+}

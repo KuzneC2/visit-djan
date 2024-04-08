@@ -1,0 +1,7 @@
+.prices-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+    padding: 25px 0;
+    margin: 0 5%;
+}

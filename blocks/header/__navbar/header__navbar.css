@@ -1,0 +1,15 @@
+.header__navbar {
+    margin: 0 auto;
+    max-width: 1900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:1247px) {
+    .header__navbar {
+           flex-direction: column-reverse;
+           max-width: 1247px;
+           /* width: calc(100% - 60px); */
+           margin: 0;
+       }
+   }

@@ -1,0 +1,25 @@
+.container-text__title {
+    padding: 150px 0 0 0;
+    margin: 0;
+    width: 664px;
+    height: 192px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 67px;
+    line-height: 95%;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1247px) {
+    .container-text__title{
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        }
+}
+
+
+
+

@@ -1,0 +1,22 @@
+.pay__choice {
+    background-color: #fff;
+    width: 92px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 0;
+    border-radius: 10px;
+
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.3px;
+    line-height: 26px;
+
+    letter-spacing: -0.03em;
+
+    color: #000000;
+
+
+}

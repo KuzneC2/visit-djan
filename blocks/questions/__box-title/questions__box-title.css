@@ -1,0 +1,11 @@
+.questions__box-title {
+    max-width: 329px;
+    margin: 0 135px 0 0;
+}
+
+@media (max-width: 1247px) {
+    .questions__box-title{
+        max-width: 100%;
+        margin: 0;
+    }
+}

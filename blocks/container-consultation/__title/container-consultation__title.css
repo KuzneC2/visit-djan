@@ -1,0 +1,18 @@
+.container-consultation__title {
+    margin: 15px 0 50px 0;
+
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+@media (max-width: 1247px) {
+    .container-consultation__title{
+        text-align: end;
+        margin: 10px 20px 0 0;
+    }
+}

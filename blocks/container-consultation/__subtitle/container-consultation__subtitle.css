@@ -1,0 +1,18 @@
+.container-consultation__subtitle {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+    color: #A95094;
+}
+
+@media (max-width: 1247px) {
+    .container-consultation__subtitle{
+        text-align: end;
+        margin: 0 15% 0 0;
+    }
+}

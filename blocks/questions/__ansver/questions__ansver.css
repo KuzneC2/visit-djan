@@ -1,0 +1,6 @@
+.questions__ansver {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.3s ease;
+    background-color: white;
+}

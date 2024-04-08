@@ -1,0 +1,11 @@
+.logo__subtitle {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29.2388px;
+    line-height: 23px;
+}
+
+.logo__subtitle:hover {
+    opacity: 0.6;
+}

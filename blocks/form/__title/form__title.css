@@ -1,0 +1,10 @@
+.form__title {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.015em;
+    color: #171717;
+    margin: 0;
+}

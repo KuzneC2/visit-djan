@@ -1,0 +1,10 @@
+.contact-address {
+    display: flex;
+    margin: auto 0;
+}
+
+@media (max-width:1247px) {
+    .contact-address {
+           display: none;
+       }
+   }

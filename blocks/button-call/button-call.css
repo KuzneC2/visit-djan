@@ -1,0 +1,24 @@
+.button-call {
+    width: 162px;
+    height: 55px;
+    background-color: #a9509400;
+    border: 2px solid #FFC464;
+    border-radius: 15px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFC464;
+}
+
+.button-call:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+@media (max-width: 1247px) {
+    .button-call{
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}

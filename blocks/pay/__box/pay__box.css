@@ -1,0 +1,12 @@
+.pay__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+@media (max-width: 1247px) {
+    .pay__box{
+        margin: 0 0 35px 0;
+        width: 82%;
+    }
+}

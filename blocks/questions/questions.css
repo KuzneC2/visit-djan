@@ -1,0 +1,15 @@
+.questions {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: calc(100% - 250px);
+}
+
+@media (max-width:1247px) {
+.questions{
+    flex-direction: column;
+    width: calc(100% - 58px);
+    margin: 0 30px 0 28px;
+}
+
+}

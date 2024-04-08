@@ -1,0 +1,20 @@
+.problem-grid {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "one two three"
+        "four four four"
+        "five six six"
+        "seven eight nine"
+        "ten eleven eleven";
+}
+
+@media (max-width: 1247px) {
+    .problem-grid{
+        display: none;
+    }
+}

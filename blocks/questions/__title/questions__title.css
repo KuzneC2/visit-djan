@@ -1,0 +1,19 @@
+.questions__title {
+    /* Часто задаваемые вопросы */
+    width: 329px;
+    max-width: 90%  ;
+    margin: 0 0 25px 0;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+}
+
+@media (max-width:1247px) {
+    .questions__title{
+        margin: 0 auto 25px;
+        width: 522px;
+    }
+}

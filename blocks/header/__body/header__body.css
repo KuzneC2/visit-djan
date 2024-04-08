@@ -1,0 +1,24 @@
+.header__body {
+    margin: 0 auto;
+    max-width: 1900px;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/djan-photo.png), url(../../../images/стриралка.png);
+    background-size: 781px auto, 418px auto;
+    background-position: left 33%, 2% 95%;
+}
+
+
+@media (max-width: 1247px) {
+    .header__body {
+        margin: 0 auto;
+        max-width: 1900px;
+        min-height: 1000px;
+        background-repeat: no-repeat;
+        background-image: url(../../../images/djan-photo.png);
+        background-size: 781px auto;
+        background-position: 55% -55%
+    }
+}
+
+ 

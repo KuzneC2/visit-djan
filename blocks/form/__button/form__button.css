@@ -1,0 +1,22 @@
+.form__button {
+    width: 314px;
+    height: 69px;
+    background: #A95094;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width:1247px) {
+    .form__button{
+        margin: 10px 0 0 0;
+        max-width: 390px;
+        width: 100%;
+    }
+}

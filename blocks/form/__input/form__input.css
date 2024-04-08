@@ -1,0 +1,28 @@
+.form__input {
+    margin: 0 2.7% 0 0;
+    width: 301px;
+    height: 69px;
+    background: #F5F5F5;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #171717;
+    padding-left: 25px;
+}
+
+.form__input::placeholder {
+    color: #171717;
+}
+
+@media(max-width: 1247px) {
+    .form__input {
+        max-width: 365px;
+        width: 100%
+    }
+}

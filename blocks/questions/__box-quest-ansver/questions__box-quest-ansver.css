@@ -1,0 +1,10 @@
+.questions__box-quest-ansver {
+    max-width: 800px;
+    width: 90%;
+}
+@media (max-width: 1247px) {
+    .questions__box-quest-ansver{
+        width: 100%;
+        max-width: 100%;
+    }
+}

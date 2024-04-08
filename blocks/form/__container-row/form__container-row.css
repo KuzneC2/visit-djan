@@ -1,0 +1,13 @@
+.form__container-row {
+    display: flex;
+    margin: 0 4.5%;
+}
+
+@media (max-width: 1247px) {
+
+    .form__container-row {
+        flex-direction: column;
+        max-width: 400px;
+        width: 100%;
+    }
+}

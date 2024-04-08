@@ -1,0 +1,15 @@
+.price__subtitle {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #96317D;
+    margin: 0;
+}
+
+.price__subtitle:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

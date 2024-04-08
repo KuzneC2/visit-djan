@@ -1,0 +1,21 @@
+.list-abil__container {
+    max-width: 207px;
+    margin: 0 85px 0 0;
+}
+
+.list-abil__container:nth-child(4) {
+    margin: 0;
+}
+
+@media (max-width: 1247px) {
+    .list-abil__container{
+        display: flex;
+        max-width: 310px;
+        margin: 0 50px 0 0;
+        align-items: center;
+    }
+
+    .list-abil__container:nth-child(3) {
+        margin: 0 60px 0 20px;
+    }
+}
