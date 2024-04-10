@@ -1,4 +1,4 @@
-.questions__title {
+.questions__titl {
     font-family: 'TT Norms';
     font-style: normal;
     font-size: 40px;
@@ -11,7 +11,7 @@
 }
 
 @media (max-width:1247px) {
-    .questions__title{
+    .questions__titl{
         margin: 0 auto 25px;
         width: 522px;
     }
