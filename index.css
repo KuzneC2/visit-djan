@@ -87,7 +87,7 @@
 @import url(./blocks/questions/questions.css);
 @import url(./blocks/questions/__box-title/questions__box-title.css);
 @import url(./blocks/questions/__subtitle/questions__subtitle.css);
-@import url(/blocks/questions/__title/questions__title.css);
+@import url(./blocks/questions/__title/questions__title.css);
 @import url(./blocks/questions/__box-quest-ansver/questions__box-quest-ansver.css);
 @import url(./blocks/questions/__quest-box/questions__quest-box.css);
 @import url(./blocks/questions/__quest/questions__quest.css);
