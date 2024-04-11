@@ -8,3 +8,11 @@
     opacity: 60%;
     cursor: pointer;
 }
+
+@media (max-width: 561px) {
+    .navigation__link {
+        display: flex;
+        padding: 0.5rem 1.25rem;
+        text-decoration: none;
+    }
+}

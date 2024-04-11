@@ -1,0 +1,23 @@
+.navigation__items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+@media (max-width: 561px) {
+    .navigation__items {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start
+    }
+}

@@ -1,13 +1,12 @@
 .navigation {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
     width: 100%;
-    font-family: 'TT Norms';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    margin: auto 0;
+}
+
+
+@media (max-width: 561px) {
+    .navigation {
+        overflow-y: hidden;
+        max-width: 70%;
+        margin: 0 0px 0 auto
+    }
 }
