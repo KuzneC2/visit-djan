@@ -15,4 +15,8 @@
         padding: 0.5rem 1.25rem;
         text-decoration: none;
     }
+
+    .navigation__link:not(:last-child) {
+        border-right: 1px solid #eee;
+    }
 }

@@ -39,3 +39,9 @@
         display: block;
     }
 }
+
+@media (max-width: 520px) {
+    .container-text__button{
+        margin: 350px auto 0;
+    }
+}

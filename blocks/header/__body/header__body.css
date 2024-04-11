@@ -21,4 +21,11 @@
     }
 }
 
- 
+
+@media (max-width: 520px) {
+    .header__body{
+        background-size: 420px auto;
+        background-position: 55% 155px;
+        min-height: 630px;
+    }
+}

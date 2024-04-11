@@ -18,4 +18,13 @@
 }
 
 
-
+@media (max-width: 520px) {
+    .container-text__subtitle {
+        width: 340px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: left;
+    }
+}
