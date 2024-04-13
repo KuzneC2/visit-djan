@@ -201,6 +201,11 @@ a {
     }
 }
 
+@media (max-width: 320px) {
+    .list-abil__img {
+        margin: 0;
+    }
+}
 
 
 .select-wrapper {
@@ -216,7 +221,13 @@ a {
         min-height: 63px;
         margin: 380px auto 0;
     }
+}
 
+@media (max-width:600px) {
+    .select-wrapper {
+        width: calc(100% - 15vw);
+        margin: 64vw auto 0;
+    }
 }
 
 .select-menu {
@@ -237,6 +248,11 @@ a {
     appearance: none;
 }
 
+@media (max-width:600px) {
+    .select-menu {
+        min-height: 55px;
+    }
+}
 
 .triangle {
     color: #96317D;
@@ -244,5 +260,13 @@ a {
     top: 42%;
     right: 5%;
     transition: transform 0.5s ease;
+}
+
+
+@media (max-width: 520px){
+    .list-abil__container-img {
+       width: 85px;
+       margin: 0 25px 0 0;
+   }
 }
 

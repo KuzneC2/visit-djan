@@ -1,0 +1,20 @@
+.container-caption__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+@media (max-width: 420px) {
+    .container-caption__subtitle {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 371px) {
+    .container-caption__subtitle {
+        font-size: 12px;
+    }
+}

@@ -11,8 +11,37 @@
 }
 
 @media (max-width: 1247px) {
-    .container-consultation__title{
+    .container-consultation__title {
         text-align: end;
         margin: 10px 20px 0 0;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .container-consultation__title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container-consultation__title {
+        font-size: 36px;
+        margin: 10px 5px 0 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .container-consultation__title {
+        font-size: 40px;
+        margin: 5px 0 0 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .container-consultation__title {
+        font-size: 34px;
     }
 }

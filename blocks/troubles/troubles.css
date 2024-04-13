@@ -22,4 +22,16 @@
         padding-top: 80px;
         
     }
+ 
 }
+
+@media (max-width: 600px) {
+    .troubles {
+        background-size: 90% AUTO;
+        background-position: 100% 40%;
+        min-height: 550px;
+        padding-top: 0px;
+        min-height: 0px;
+    }
+}
+

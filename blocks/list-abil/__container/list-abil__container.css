@@ -19,3 +19,16 @@
         margin: 0 60px 0 20px;
     }
 }
+
+@media (max-width: 520px) {
+    .list-abil__container {
+        width: 100%;
+        display: flex;
+        margin: 0 0 50px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .list-abil__container:nth-child(3){
+        margin: 0 0 50px 0;
+    }
+}

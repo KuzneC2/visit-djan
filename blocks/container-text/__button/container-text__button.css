@@ -41,7 +41,13 @@
 }
 
 @media (max-width: 520px) {
-    .container-text__button{
+    .container-text__button {
         margin: 350px auto 0;
+    }
+}
+
+@media (max-width:380px) {
+    .container-text__button {
+        margin: 290px auto 0;
     }
 }

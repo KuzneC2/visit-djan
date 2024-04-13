@@ -8,7 +8,14 @@
 }
 
 @media (max-width:1247px) {
-    .list-abil__title{
+    .list-abil__title {
         width: 210px;
+    }
+}
+
+@media (max-width:520px) {
+    .list-abil__title {
+        width: 225px;
+        margin: 0;
     }
 }

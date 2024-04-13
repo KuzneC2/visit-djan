@@ -13,3 +13,17 @@
         justify-content: normal;
     }
 }
+
+@media (max-width: 520px) {
+    .list-abil{
+        width: 95%;
+        max-width: 340px;
+        margin: 0 50px 0 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .list-abil{
+        margin: 0 0 0 5px;
+    }
+}

@@ -16,3 +16,18 @@
         margin: 0 15% 0 0;
     }
 }
+
+@media (max-width: 720px) {
+    .container-consultation__subtitle{
+        margin: 0 10% 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-consultation__subtitle {
+        padding: 10px 0 0 0;
+        text-align: center;
+        margin: 0;
+    }
+}
+

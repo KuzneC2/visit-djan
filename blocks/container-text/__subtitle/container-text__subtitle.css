@@ -28,3 +28,10 @@
         text-align: left;
     }
 }
+
+@media (max-width:380px) {
+    .container-text__subtitle {
+        width: 300px;
+        font-size: 16px;
+    }
+}

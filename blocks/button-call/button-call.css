@@ -22,3 +22,10 @@
         display: none;
     }
 }
+
+
+@media (max-width: 380px) {
+    .button-call{
+        max-width: 140px;
+    }
+}

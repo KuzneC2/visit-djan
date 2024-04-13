@@ -29,3 +29,10 @@
         min-height: 630px;
     }
 }
+
+@media (max-width: 380px) {
+    .header__body {
+        background-position: 55% 100px;
+        min-height: 560px;
+    }
+}
