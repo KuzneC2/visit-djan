@@ -263,10 +263,72 @@ a {
 }
 
 
-@media (max-width: 520px){
+@media (max-width: 520px) {
     .list-abil__container-img {
-       width: 85px;
-       margin: 0 25px 0 0;
-   }
+        width: 85px;
+        margin: 0 25px 0 0;
+    }
 }
 
+
+
+
+
+.price-mobile {
+    display: none;
+}
+
+@media (max-width:720px) {
+    .price-mobile{
+        display: block;
+        margin: 75px 0 0 0;
+    }
+}
+
+.prices-container-mobile {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 60px);
+    margin: 0 auto 35px;
+}
+
+
+.prices-container-mobile-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-bottom: 1px solid #ececec;
+}
+
+.prices-container-mobile-box:nth-child(1) {
+    padding: 0 0 20px 0;
+}
+
+.prices-container-mobile__subtitle-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices-container-mobile__title {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 15px 0;
+}
+
+.prices-container-mobile__subtitle {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.prices-container__subtitle_color_purple {
+    color: purple;
+}

@@ -9,3 +9,10 @@
     text-align: center;
     margin: 0 0 50px 0;
 }
+
+@media (max-width:720px) {
+    .price__title {
+        font-size: 30px;
+        margin: 0 0 35px 0;
+    }
+}
