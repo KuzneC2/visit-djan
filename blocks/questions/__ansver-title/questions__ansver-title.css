@@ -7,3 +7,10 @@
     letter-spacing: -0.05em;
     color: #212121;
 }
+
+
+@media (max-width: 650px){
+    .questions__ansver-title{
+        font-size: 17px;
+    }
+}

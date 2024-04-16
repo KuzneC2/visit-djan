@@ -1,3 +1,9 @@
 .open {
     height: 150px;
 }
+
+@media (max-width: 650px) {
+    .open {
+        padding: 0 25px 0;
+    }
+}
