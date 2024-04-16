@@ -1,6 +1,6 @@
 .pay {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: calc(100% - 102px);
     max-width: 1350px;

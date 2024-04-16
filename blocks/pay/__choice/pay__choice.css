@@ -13,10 +13,12 @@
     font-weight: 500;
     font-size: 14.3px;
     line-height: 26px;
-
     letter-spacing: -0.03em;
-
     color: #000000;
+}
 
-
+@media (max-width: 720px) {
+    .pay__choice{
+        margin: 0 auto;
+    }
 }

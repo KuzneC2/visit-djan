@@ -4,9 +4,20 @@
     align-items: center;
     width: 80%;
 }
+
 @media (max-width: 1247px) {
-    .pay__box{
+    .pay__box {
         margin: 0 0 35px 0;
         width: 82%;
+    }
+}
+
+@media (max-width: 720px) {
+    .pay__box {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 17px;
+        display: grid;
     }
 }
