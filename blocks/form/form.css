@@ -18,5 +18,12 @@
         justify-content: center;
         text-align: center;
     }
-    
+
+}
+
+@media (max-width:540px) {
+    .form {
+        width: 86%;
+        max-height: 388px;
+    }
 }

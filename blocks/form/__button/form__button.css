@@ -20,3 +20,11 @@
         width: 100%;
     }
 }
+
+@media (max-width: 540px) {
+    .form__button {
+        margin: 10px auto 0;
+        width: 90%;
+        max-width: 300px;
+    }
+}

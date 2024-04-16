@@ -124,12 +124,12 @@ a {
     }
 }
 
-@media (max-width: 1900px) {
+
     .container-adress-navigation {
         width: calc(100% - 50%);
         margin: auto 0;
     }
-}
+
 
 @media (max-width: 1247px) {
     .container-adress-navigation {
