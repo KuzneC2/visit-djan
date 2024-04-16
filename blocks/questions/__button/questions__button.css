@@ -9,3 +9,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 650px) {
+    .questions__button{
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -8,3 +8,27 @@
     color: #212121;
     max-width: 80%;
 }
+
+@media (max-width: 650px) {
+    .questions__quest-title {
+        /* max-width: 221px; */
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.02em;
+        color: #212121;
+    }
+}
+
+@media (max-width: 420px) {
+    .questions__quest-title{
+        max-width: 88%;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    .questions__quest-title{
+        font-size: 15px;
+    }
+}

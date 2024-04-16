@@ -5,14 +5,26 @@
     font-weight: 700;
     line-height: 100%;
     width: 329px;
-    max-width: 90%  ;
+    max-width: 90%;
     margin: 0 0 25px 0;
     color: #000000;
 }
 
 @media (max-width:1247px) {
-    .questions__titl{
+    .questions__titl {
         margin: 0 auto 25px;
         width: 522px;
+    }
+}
+
+@media (max-width: 650px) {
+    .questions__titl {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 370px) {
+    .questions__titl {
+        font-size: 27px;
     }
 }

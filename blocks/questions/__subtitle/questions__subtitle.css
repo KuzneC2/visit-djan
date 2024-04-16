@@ -12,7 +12,29 @@
 @media (max-width: 1247px) {
     .questions__subtitle {
         text-align: center;
-        width: 527px;
+        max-width: 527px;
+        width: 100%;
         margin: 0 auto 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .questions__subtitle {
+        font-size: 18px;
+        text-align: start;
+        margin: 0 auto 50px ;
+        width: 93%;
+    }
+}
+
+@media (max-width: 420px) {
+    .questions__subtitle{
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 360px) {
+    .questions__subtitle{
+        font-size: 17px;
     }
 }
